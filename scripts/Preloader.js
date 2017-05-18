@@ -14,7 +14,7 @@ BasicGame.Preloader.prototype = {
 	fill: '#fff',
 	align: 'center'
 });
-this.PreloaderText.anchor.setTO(0.5,0.5);
+this.PreloaderText.anchor.setTo(0.5,0.5);
 
 //preload the images, sprites and audio assets into memory
 this.load.image('logo', 'assets/PhaserLogo.png');

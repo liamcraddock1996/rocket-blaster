@@ -6,7 +6,7 @@ var ship;
 BasicGame.Game.prototype = {
 
 	create: function () {
-       //Specify the physics of game to ARCADE
+       //Specifying the physics of game to ARCADE
 			 this.physics.startSystem(Phaser.physics.ARCADE);
 			 //Add the starfield and logo on screen
 			 this.starfield = this.add.tileSprite(0, 0, 800, 600, 'starfield');
